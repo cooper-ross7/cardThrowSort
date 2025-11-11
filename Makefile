@@ -23,7 +23,7 @@ test:		clean downloadtest list.o utils.o mjgTimer.o
 		utils.o list.o mjgTimer.o unittest_bsort.cpp $(LIBS)
 
 all:		clean list.o utils.o 
-	$(CC) $(CFLAGS) -o $(TARGET) list.o utils.o  sortProgram.cpp
+	$(CC) $(CFLAGS) -o $(TARGET) list.o utils.o  sortSim.cpp
 
 downloadtest:
 	wget -q -N http://huckleberry.mhu.edu/cs220/unittest_bsort.cpp

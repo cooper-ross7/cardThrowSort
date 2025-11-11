@@ -3,8 +3,8 @@
 
 #include "doublylinked.cpp"
 
-void cardThrowSort(List<int> &);
-void bubbleSort(List<int> &);
-void loadRandomList(List<int> &);
+Error_code cardThrowSort(List<int> &);
+Error_code bubbleSort(List<int> &);
+void loadRandomList(List<int> &, int numEntries = 10);
 
 #endif

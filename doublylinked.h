@@ -6,7 +6,8 @@ enum Error_code {
     success,
     underflow,
     overflow,
-    range_error
+    range_error,
+    upperBoundReached
 };
 
 template <class Node_entry>
